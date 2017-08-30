@@ -1,0 +1,28 @@
+/*
+ * Theme Name: Noto Simple
+ *
+ * Layout: Sidebar-Content
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+@media (min-width: 1024px) {
+    .content-area {
+        float: right;
+        margin: 0 0 0 -25%;
+        width: 100%;
+    }
+    .site-main {
+        margin: 0 0 0 28%;
+    }
+    .site-content .widget-area {
+        float: left;
+        overflow: hidden;
+        width: 24%;
+        display: initial;
+    }
+    .site-footer {
+        clear: both;
+        width: 100%;
+    }
+}
