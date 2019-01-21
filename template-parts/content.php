@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Japanese_Simple
+ * @package Noto_Simple
  */
 
 ?>
@@ -15,23 +15,28 @@
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h2 class="entry-title"><i class="material-icons sticky-icon">bookmark_border</i><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php japanese_simple_posted_on(); ?>
+			<?php noto_simple_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
 
+	<?php if (has_post_thumbnail()) : ?>
+	<div class="featured-image">
+	<?php the_post_thumbnail(); ?>
+	</div><!-- .featured-image -->
+	<?php endif; ?>
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'japanese-simple' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'noto-simple' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -42,13 +47,13 @@
 			) );
 
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'japanese-simple' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'noto-simple' ),
 				'after'  => '</div>',
 			) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php japanese_simple_entry_footer(); ?>
+		<?php noto_simple_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

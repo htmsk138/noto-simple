@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Japanese_Simple
+ * @package Noto_Simple
  */
 
 get_header(); ?>
@@ -17,8 +17,14 @@ get_header(); ?>
 
 			<header class="page-header">
 				<?php
+				if ( is_home() && ! is_front_page() ) {
+				?>
+					<h1 class="page-title"><?php single_post_title(); ?></h1>
+
+				<?php } else {
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="archive-description">', '</div>' );
+				}
 				?>
 			</header><!-- .page-header -->
 
@@ -35,7 +41,10 @@ get_header(); ?>
 
 			endwhile;
 
-			the_posts_navigation();
+			the_posts_navigation(array(
+                'prev_text' => '<i class="material-icons">navigate_before</i><span class="hidden-sm">' . __('Older posts', 'noto-simple') . '</span>',
+                'next_text' => '<span class="hidden-sm">' . __('Newer posts', 'noto-simple') . '</span><i class="material-icons">navigate_next</i>',
+            ));
 
 		else :
 

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package Japanese_Simple
+ * @package Noto_Simple
  */
 
 get_header(); ?>
@@ -17,7 +17,10 @@ get_header(); ?>
 
 			get_template_part( 'template-parts/content', get_post_type() );
 
-			the_post_navigation();
+			the_post_navigation(array(
+                'prev_text' => '<i class="material-icons">navigate_before</i><span class="hidden-sm">' . __('Previous post', 'noto-simple') . '</span>',
+                'next_text' => '<span class="hidden-sm">' . __('Next post', 'noto-simple') . '</span><i class="material-icons">navigate_next</i>',
+            ));
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
