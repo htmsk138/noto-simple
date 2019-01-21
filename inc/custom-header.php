@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package Japanese_Simple
+ * @package Noto_Simple
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses japanese_simple_header_style()
+ * @uses noto_simple_header_style()
  */
-function japanese_simple_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'japanese_simple_custom_header_args', array(
+function noto_simple_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'noto_simple_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'japanese_simple_header_style',
+		'wp-head-callback'       => 'noto_simple_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'japanese_simple_custom_header_setup' );
+add_action( 'after_setup_theme', 'noto_simple_custom_header_setup' );
 
-if ( ! function_exists( 'japanese_simple_header_style' ) ) :
+if ( ! function_exists( 'noto_simple_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see japanese_simple_custom_header_setup().
+	 * @see noto_simple_custom_header_setup().
 	 */
-	function japanese_simple_header_style() {
+	function noto_simple_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*

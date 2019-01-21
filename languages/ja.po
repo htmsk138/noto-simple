@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Noto Simple\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-21 02:16+0000\n"
+"PO-Revision-Date: 2019-01-21 02:29+0000\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: functions.php:47
+msgid "Primary"
+msgstr "メインメニュー"
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:107
+msgid "Add widgets here."
+msgstr "ウィジェットを追加してください。"
+
+#: 404.php:17
+msgid "That page can&rsquo;t be found."
+msgstr "ページが見つかりません"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location."
+msgstr "お探しのページが見つかりませんでした。"
+
+#: 404.php:23
+msgid "Back to home page"
+msgstr "トップページに戻る"
+
+#: archive.php:45 search.php:39
+msgid "Older posts"
+msgstr "古い記事"
+
+#: archive.php:46 search.php:40
+msgid "Newer posts"
+msgstr "新しい記事"
+
+#: comments.php:29
+msgid "Comments"
+msgstr "コメント"
+
+#: comments.php:34 comments.php:50
+msgid "Older comments"
+msgstr "古いコメント"
+
+#: comments.php:35 comments.php:51
+msgid "Newer comments"
+msgstr "新しいコメント"
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr "この記事へのコメントの受付は締め切りました。"
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "『%s』の検索結果"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:23
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: single.php:21
+msgid "Previous post"
+msgstr "前の記事"
+
+#: single.php:22
+msgid "Next post"
+msgstr "次の記事"
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "%s"
+
+#. %s: post author.
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "投稿者： %s"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr "、"
+
+#. 1: list of categories.
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr "カテゴリー： %1$s"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr "、"
+
+#. 1: list of tags.
+#: inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr "タグ： %1$s"
+
+#. %s: post title
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">『%s』に</span>コメントする"
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89 template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">『%s』を</span>編集"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "記事が見つかりません"
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "<a href=\"%1$s\">こちら</a>から記事を投稿してください。"
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "キーワードに該当する記事が見つかりませんでした。別のキーワードをお試しください。"
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "該当する記事がありませんでした。"
+
+#: template-parts/content-page.php:22 template-parts/content.php:50
+msgid "Pages:"
+msgstr "ページ： "
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> 『%s』の</span>続きを読む"
+
+#. Name of the theme
+msgid "Noto Simple"
+msgstr "Noto Simple"
+
+#. Description of the theme
+msgid "Simple WordPress theme using Noto Sans."
+msgstr "Noto Sansフォントを使用した、シンプルなテーマです。"
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://hitomiseki.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "Hitomi Seki"
+msgstr "Hitomi Seki"

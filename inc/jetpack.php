@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package Japanese_Simple
+ * @package Noto_Simple
  */
 
 /**
@@ -14,11 +14,11 @@
  * See: https://jetpack.com/support/responsive-videos/
  * See: https://jetpack.com/support/content-options/
  */
-function japanese_simple_jetpack_setup() {
+function noto_simple_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
-		'render'    => 'japanese_simple_infinite_scroll_render',
+		'render'    => 'noto_simple_infinite_scroll_render',
 		'footer'    => 'page',
 	) );
 
@@ -28,7 +28,7 @@ function japanese_simple_jetpack_setup() {
 	// Add theme support for Content Options.
 	add_theme_support( 'jetpack-content-options', array(
 		'post-details' => array(
-			'stylesheet' => 'japanese-simple-style',
+			'stylesheet' => 'noto-simple-style',
 			'date'       => '.posted-on',
 			'categories' => '.cat-links',
 			'tags'       => '.tags-links',
@@ -37,12 +37,12 @@ function japanese_simple_jetpack_setup() {
 		),
 	) );
 }
-add_action( 'after_setup_theme', 'japanese_simple_jetpack_setup' );
+add_action( 'after_setup_theme', 'noto_simple_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
  */
-function japanese_simple_infinite_scroll_render() {
+function noto_simple_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		if ( is_search() ) :

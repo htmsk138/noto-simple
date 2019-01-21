@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Japanese_Simple
+ * @package Noto_Simple
  */
 
 get_header(); ?>
@@ -34,5 +34,4 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();
