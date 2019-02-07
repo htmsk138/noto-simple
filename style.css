@@ -4,7 +4,7 @@ Theme URI: https://hitomiseki.com/noto-simple/
 Author: Hitomi Seki
 Author URI: https://hitomiseki.com/
 Description: Simple WordPress theme using Noto Sans.
-Version: 1.0.0
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: noto-simple
@@ -295,11 +295,6 @@ textarea {
 	line-height: 1.5;
 }
 
-[lang="ja"] * {
-	font-family: 'Noto Sans JP', sans-serif;
-    letter-spacing: 1px;
-}
-
 h1,
 h2,
 h3,
@@ -335,7 +330,7 @@ pre {
     font-family: 'Courier New', monospace !important;
     font-size: 14px;
     font-size: 1.4rem;
-    line-height: 0.8;
+    line-height: 1.2;
     margin: 1.5em 0;
     max-width: 100%;
     overflow: auto;

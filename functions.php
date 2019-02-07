@@ -117,16 +117,7 @@ add_action( 'widgets_init', 'noto_simple_widgets_init' );
  * Enqueue scripts and styles.
  */
 function noto_simple_scripts() {
-    // Load Noto web font depending on the locale
-    switch (get_locale()) {
-        case 'ja':
-            wp_enqueue_style( 'noto-simple-noto-ja', 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:300&amp;subset=japanese' );
-            break;
-
-        default:
-            wp_enqueue_style( 'noto-simple-noto', 'https://fonts.googleapis.com/css?family=Noto+Sans' );
-            break;
-    }
+    wp_enqueue_style( 'noto-sans-en', 'https://fonts.googleapis.com/css?family=Noto+Sans' );
 
 	wp_enqueue_style( 'noto-simple-style', get_stylesheet_uri(), array(), '201811' );
 
