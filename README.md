@@ -1,34 +1,52 @@
 # Noto Simple
 
-Contributors: Hitomi Seki  
+Contributors: htmsk138
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, right-sidebar, editor-style, sticky-post, blog  
-Requires at least: 4.0  
-Tested up to: 4.8  
-Stable tag: 1.0.0  
+Requires at least: 5.0  
+Tested up to: 5.0
+Stable tag: trunk
 License: GNU General Public License v2 or later  
 License URI: LICENSE
 
-A WordPress theme called Noto Simple.
+Noto Simple is a WordPress theme with a simple design using Google’s Noto font.
 
 ## Description
 
-Noto Simple is a WordPress theme with a simple design developed by Hitomi Seki using Google’s [Noto font](https://www.google.com/get/noto/).
+Noto Simple is developed based on the following concepts.
 
-## Installation
+### Simple design
 
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
+The theme has only minimum stylings to make the site readable, without uniqueness nor characteristics.
 
-## Frequently Asked Questions
+### Multi-language font
 
-### Does this theme support any plugins?
+Noto font provides different font files for each character set of various languages. The theme itself only loads Noto Sans with the basic latin character set, so it's
+ recommended to use [Noto Font Loader](https://github.com/htmsk138/noto-font-loader) that automatically loads the correct font file for your site's language. The plugin also lets you use Noto Serif besides Noto Sans.
 
-Noto Simple includes support for Infinite Scroll in Jetpack.
+### Accessibility
+
+It meets below accessibility standards:
+
+* Visitor can navigate within the site with only keyboards
+* Voice reader can read the contents in the correct order
+* The background colour and the text colour have enough contrast
+* The site is readable to anyone regardless of their type of colour vision.
+
+### Customise features
+
+The site owner can customize the site’s look in admin panel:
+
+* Choose the blog-related pages’ sidebar position (none, left and right)
+* Upload logo image (to be displayed instead of site title)
+* Upload background image
 
 ## Changelog
 
-### 1.0 - February 1 2019
+### 1.1
+* Fix CSS
+* Passed the role to load different language font files to Noto Font Loader plugin
+
+### 1.0
 * Initial release
 
 ## Credits
