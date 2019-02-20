@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Noto Simple\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 08:53+0000\n"
+"POT-Creation-Date: 2019-02-20 10:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -73,11 +73,11 @@ msgid "Skip to content"
 msgstr ""
 
 #: header.php:52
-msgid "Menu"
+msgid "menu"
 msgstr ""
 
 #: header.php:53
-msgid "Close"
+msgid "close"
 msgstr ""
 
 #. 1: Theme name, 2: Theme author.

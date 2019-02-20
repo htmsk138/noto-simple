@@ -49,8 +49,8 @@
 
             <nav id="site-navigation" class="main-navigation">
                 <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-                <i class="material-icons open"><?php esc_html_e('Menu', 'noto-simple'); ?></i>
-					<i class="material-icons close"><?php esc_html_e('Close', 'noto-simple'); ?></i>
+                <i class="material-icons open"><?php esc_html_e('menu', 'noto-simple'); ?></i>
+					<i class="material-icons close"><?php esc_html_e('close', 'noto-simple'); ?></i>
 				</button>
                 <?php
                     wp_nav_menu( array(
