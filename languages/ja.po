@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Noto Simple\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-21 02:16+0000\n"
-"PO-Revision-Date: 2019-01-21 02:29+0000\n"
+"POT-Creation-Date: 2019-02-20 08:53+0000\n"
+"PO-Revision-Date: 2019-02-20 08:55+0000\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.2.0; wp-5.0.3"
+"X-Loco-Version: 2.2.0; wp-5.0.3\n"
+"Last-Translator: Hitomi Seki"
 
 #: functions.php:47
 msgid "Primary"
@@ -71,11 +72,19 @@ msgstr "『%s』の検索結果"
 msgid "Skip to content"
 msgstr "コンテンツへ移動"
 
+#: header.php:52
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:53
+msgid "Close"
+msgstr "Close"
+
 #. 1: Theme name, 2: Theme author.
 #: footer.php:23
 #, php-format
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Theme: %1$s by %2$s."
 
 #: single.php:21
 msgid "Previous post"
@@ -176,10 +185,14 @@ msgid "Simple WordPress theme using Noto Sans."
 msgstr "Noto Sansフォントを使用した、シンプルなテーマです。"
 
 #. URI of the theme
-#. Author URI of the theme
-msgid "https://hitomiseki.com/"
-msgstr ""
+msgid "https://hitomiseki.com/noto-simple/"
+msgstr "https://hitomiseki.com/noto-simple/"
 
 #. Author of the theme
 msgid "Hitomi Seki"
 msgstr "Hitomi Seki"
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://hitomiseki.com/"
+msgstr "https://hitomiseki.com/"
