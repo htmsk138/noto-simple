@@ -135,7 +135,7 @@ function noto_simple_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	wp_enqueue_script( 'noto-simple-smooth-scroll', 'https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js', array(), '14.0', true );
+	wp_enqueue_script( 'noto-simple-smooth-scroll', get_template_directory_uri() . '/js/vendor/smooth-scroll.polyfills.min.js', array(), '14.0', true );
 
 	wp_enqueue_script( 'noto-simple-main', get_template_directory_uri() . '/js/main.js', array(), '201811', true );
 }
