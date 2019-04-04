@@ -52,3 +52,4 @@ The site owner can customize the site’s look in admin panel:
 
 * Based on [Underscores](http://underscores.me/), (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * [normalize.css](http://necolas.github.io/normalize.css/), (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll), (c) 2019 Chris Ferdinandi, [MIT](http://opensource.org/licenses/MIT)

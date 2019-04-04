@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Noto Simple\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 10:14+0000\n"
-"PO-Revision-Date: 2019-02-20 10:16+0000\n"
+"POT-Creation-Date: 2019-04-04 02:13+0000\n"
+"PO-Revision-Date: 2019-04-04 02:24+0000\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -11,20 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.2.0; wp-5.0.3\n"
+"X-Loco-Version: 2.2.1; wp-5.1.1\n"
 "Last-Translator: Hitomi Seki"
-
-#: functions.php:47
-msgid "Primary"
-msgstr "メインメニュー"
-
-#: functions.php:105
-msgid "Sidebar"
-msgstr "サイドバー"
-
-#: functions.php:107
-msgid "Add widgets here."
-msgstr "ウィジェットを追加してください。"
 
 #: 404.php:17
 msgid "That page can&rsquo;t be found."
@@ -62,29 +50,33 @@ msgstr "新しいコメント"
 msgid "Comments are closed."
 msgstr "この記事へのコメントの受付は締め切りました。"
 
-#. %s: search query.
-#: search.php:21
-#, php-format
-msgid "Search Results for: %s"
-msgstr "『%s』の検索結果"
-
-#: header.php:25
-msgid "Skip to content"
-msgstr "コンテンツへ移動"
-
-#: header.php:52
-msgid "menu"
-msgstr "menu"
-
-#: header.php:53
-msgid "close"
-msgstr "close"
-
 #. 1: Theme name, 2: Theme author.
 #: footer.php:23
 #, php-format
 msgid "Theme: %1$s by %2$s."
 msgstr "Theme: %1$s by %2$s."
+
+#: functions.php:47
+msgid "Primary"
+msgstr "メインメニュー"
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:107
+msgid "Add widgets here."
+msgstr "ウィジェットを追加してください。"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "『%s』の検索結果"
 
 #: single.php:21
 msgid "Previous post"
@@ -185,8 +177,8 @@ msgid "Simple WordPress theme using Noto Sans."
 msgstr "Noto Sansフォントを使用した、シンプルなテーマです。"
 
 #. URI of the theme
-msgid "https://hitomiseki.com/noto-simple/"
-msgstr "https://hitomiseki.com/noto-simple/"
+msgid "https://github.com/htmsk138/noto-simple"
+msgstr "https://github.com/htmsk138/noto-simple"
 
 #. Author of the theme
 msgid "Hitomi Seki"

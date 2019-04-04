@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Noto Simple\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 10:15+0000\n"
+"POT-Creation-Date: 2019-04-04 02:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -13,18 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
-
-#: functions.php:47
-msgid "Primary"
-msgstr ""
-
-#: functions.php:105
-msgid "Sidebar"
-msgstr ""
-
-#: functions.php:107
-msgid "Add widgets here."
-msgstr ""
 
 #: 404.php:17
 msgid "That page can&rsquo;t be found."
@@ -62,28 +50,32 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#. %s: search query.
-#: search.php:21
+#. 1: Theme name, 2: Theme author.
+#: footer.php:23
 #, php-format
-msgid "Search Results for: %s"
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:107
+msgid "Add widgets here."
 msgstr ""
 
 #: header.php:25
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:52
-msgid "menu"
-msgstr ""
-
-#: header.php:53
-msgid "close"
-msgstr ""
-
-#. 1: Theme name, 2: Theme author.
-#: footer.php:23
+#. %s: search query.
+#: search.php:21
 #, php-format
-msgid "Theme: %1$s by %2$s."
+msgid "Search Results for: %s"
 msgstr ""
 
 #: single.php:21
@@ -185,7 +177,7 @@ msgid "Simple WordPress theme using Noto Sans."
 msgstr ""
 
 #. URI of the theme
-msgid "https://hitomiseki.com/noto-simple/"
+msgid "https://github.com/htmsk138/noto-simple"
 msgstr ""
 
 #. Author of the theme
