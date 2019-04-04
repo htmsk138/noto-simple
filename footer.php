@@ -24,7 +24,7 @@
                 ?>
             </div><!-- .site-info -->
 			<p class="copyright">
-				&copy;<?php echo date('Y') . ' '; bloginfo('name'); ?>
+				&copy;<?php echo date_i18n('Y') . ' '; bloginfo('name'); ?>
 			</p>
         </div><!-- .container -->
 	</footer><!-- #colophon -->
