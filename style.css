@@ -4,7 +4,7 @@ Theme URI: https://github.com/htmsk138/noto-simple
 Author: Hitomi Seki
 Author URI: https://hitomiseki.com/
 Description: Simple WordPress theme using Noto Sans.
-Version: 1.1.2
+Version: 1.1.3
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: noto-simple
@@ -29,19 +29,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Layout
 # Forms
 # Navigation
-	## Links
-	## Menus
+  ## Links
+  ## Menus
 # Accessibility
 # Alignments
 # Clearings
 # Widgets
 # Content
-	## Posts and pages
-	## Comments
+  ## Posts and pages
+  ## Comments
 # Infinite scroll
 # Media
-	## Captions
-	## Galleries
+  ## Captions
+  ## Galleries
 # Responsive
 --------------------------------------------------------------*/
 
@@ -49,13 +49,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: sans-serif;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust:     100%;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust:     100%;
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 article,
@@ -70,107 +70,107 @@ menu,
 nav,
 section,
 summary {
-	display: block;
+  display: block;
 }
 
 audio,
 canvas,
 progress,
 video {
-	display: inline-block;
-	vertical-align: baseline;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 audio:not([controls]) {
-	display: none;
-	height: 0;
+  display: none;
+  height: 0;
 }
 
 [hidden],
 template {
-	display: none;
+  display: none;
 }
 
 a {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 a:active,
 a:hover {
-	outline: 0;
-    opacity: 0.7;
+  outline: 0;
+  opacity: 0.7;
 }
 
 abbr[title] {
-	border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
 b,
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 dfn {
-	font-style: italic;
+  font-style: italic;
 }
 
 h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 mark {
-	background: #ff0;
-	color: #000;
+  background: #ff0;
+  color: #000;
 }
 
 small {
-	font-size: 80%;
+  font-size: 80%;
 }
 
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sup {
-	top: -0.5em;
+  top: -0.5em;
 }
 
 sub {
-	bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 img {
-	border: 0;
+  border: 0;
 }
 
 svg:not(:root) {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 figure {
-	margin: 1em 40px;
+  margin: 1em 40px;
 }
 
 hr {
-	box-sizing: content-box;
-	height: 0;
+  box-sizing: content-box;
+  height: 0;
 }
 
 pre {
-	overflow: auto;
+  overflow: auto;
 }
 
 code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
-	font-size: 1em;
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 
 button,
@@ -178,106 +178,106 @@ input,
 optgroup,
 select,
 textarea {
-	color: inherit;
-	font: inherit;
-	margin: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
 }
 
 button {
-	overflow: visible;
+  overflow: visible;
 }
 
 button,
 select {
-	text-transform: none;
+  text-transform: none;
 }
 
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	-webkit-appearance: button;
-	cursor: pointer;
+  -webkit-appearance: button;
+  cursor: pointer;
 }
 
 button[disabled],
 html input[disabled] {
-	cursor: default;
+  cursor: default;
 }
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
+  border: 0;
+  padding: 0;
 }
 
 input {
-	line-height: normal;
+  line-height: normal;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-	box-sizing: border-box;
-	padding: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-	height: auto;
+  height: auto;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 fieldset {
-	border: 1px solid #c0c0c0;
-	margin: 0 2px;
-	padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 legend {
-	border: 0;
-	padding: 0;
+  border: 0;
+  padding: 0;
 }
 
 textarea {
-	overflow: auto;
+  overflow: auto;
 }
 
 optgroup {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 td,
 th {
-    padding: 0.5em 1em;
-	text-align: left;
+  padding: 0.5em 1em;
+  text-align: left;
 }
 
 tr {
-    border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 thead {
-    background: #f0f0f0;
+  background: #f0f0f0;
 }
 
 thead tr {
-    border: none;
+  border: none;
 }
 
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body,
@@ -286,13 +286,13 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
-	font-family: 'Noto Sans', sans-serif;
-    font-weight: normal;
-	font-size: 16px;
-	font-size: 1.6rem;
-    font-display: swap;
-	line-height: 1.5;
+  color: #404040;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-display: swap;
+  line-height: 1.5;
 }
 
 h1,
@@ -301,181 +301,181 @@ h3,
 h4,
 h5,
 h6 {
-	clear: both;
-    font-weight: bold;
-    margin-top: 3em;
+  clear: both;
+  font-weight: bold;
+  margin-top: 3em;
 }
 
 p {
-	margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 dfn,
 cite,
 em,
 i {
-	font-style: italic;
+  font-style: italic;
 }
 
 blockquote {
-	margin: 0 1.5em;
+  margin: 0 1.5em;
 }
 
 address {
-	margin: 0 0 1.5em;
+  margin: 0 0 1.5em;
 }
 
 pre {
-    background: #f0f0f0;
-    font-family: 'Courier New', monospace !important;
-    font-size: 14px;
-    font-size: 1.4rem;
-    line-height: 1.2;
-    margin: 1.5em 0;
-    max-width: 100%;
-    overflow: auto;
-    padding: 1em 2em;
+  background: #f0f0f0;
+  font-family: 'Courier New', monospace !important;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin: 1.5em 0;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 2em;
 }
 
 code,
 kbd,
 tt,
 var {
-    font-family: 'Courier', monospace !important;
-    font-size: 14px;
-    font-size: 1.4rem;
-    background: #f0f0f0;
-    padding: 0.3em 0.8em;
+  font-family: 'Courier', monospace !important;
+  font-size: 14px;
+  font-size: 1.4rem;
+  background: #f0f0f0;
+  padding: 0.3em 0.8em;
 }
 
 abbr,
 acronym {
-	border-bottom: 1px dotted #777;
-	cursor: help;
+  border-bottom: 1px dotted #777;
+  cursor: help;
 }
 
 mark,
 ins {
-	background: #fff9c0;
-	text-decoration: none;
-    padding: 0.3em 0.8em;
-    margin: 0 0.3em;
+  background: #fff9c0;
+  text-decoration: none;
+  padding: 0.3em 0.8em;
+  margin: 0 0.3em;
 }
 
 big {
-	font-size: 125%;
+  font-size: 125%;
 }
 
 b,
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .material-icons {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+  background: #fff; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: "";
+  content: "";
 }
 
 blockquote,
 q {
-	quotes: "" "";
-    background: #f0f0f0;
-    padding: 1em 2em;
+  quotes: "" "";
+  background: #f0f0f0;
+  padding: 1em 2em;
 }
 
 q {
-	line-height: 3em;
+  line-height: 3em;
 }
 
 hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
 }
 
 ul,
 ol {
-	margin: 0 0 1.5em 0;
-	padding-left: 2em;
+  margin: 0 0 1.5em 0;
+  padding-left: 2em;
 }
 
 ul {
-	list-style: disc;
+  list-style: disc;
 }
 
 ol {
-	list-style: decimal;
+  list-style: decimal;
 }
 
 li {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 li > ul,
 li > ol {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 dt {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 dd {
-	margin: 0 1.5em 1.5em;
+  margin: 0 1.5em 1.5em;
 }
 
 img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
 }
 
 figure {
-	margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+  margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
 }
 
 table {
-	display: block;
-	margin: 0 0 1.5em;
-	overflow: auto;
-	width: 100%;
+  display: block;
+  margin: 0 0 1.5em;
+  overflow: auto;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 * {
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /*--------------------------------------------------------------
@@ -490,15 +490,15 @@ input[type="submit"],
 .page-links a,
 .edit-link a,
 .reply a {
-    display: inline-block;
-    border: 1px solid #404040;
-    padding: 0.3em 1em;
-	margin: 5px 0;
-    text-decoration: none;
-    color: #404040;
-    background: #fff;
-	font-size: 14px;
-	font-size: 1.4rem;
+  display: inline-block;
+  border: 1px solid #404040;
+  padding: 0.3em 1em;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #404040;
+  background: #fff;
+  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 button:not(.menu-toggle):hover,
@@ -528,9 +528,9 @@ input[type="submit"]:active,
 .page-links a:active,
 .edit-link a:active,
 .reply a:active {
-    opacity: 1;
-    background: #404040;
-    color: #fff;
+  opacity: 1;
+  background: #404040;
+  color: #fff;
 }
 
 input[type="text"],
@@ -549,19 +549,19 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: #777;
-    border: 1px solid #ccc;
-    padding: 3.5px 10px;
-    margin: 5px 0;
-	width: 100%;
-    max-width: 30em;
+  color: #777;
+  border: 1px solid #ccc;
+  padding: 3.5px 10px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 30em;
 }
 
 select {
-	border: 1px solid #ccc;
-    min-width: 10em;
-    background: #fff;
-    height: 2.5em;
+  border: 1px solid #ccc;
+  min-width: 10em;
+  background: #fff;
+  height: 2.5em;
 }
 
 input[type="text"]:focus,
@@ -580,54 +580,54 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	color: #000;
+  color: #000;
 }
 
 textarea {
-    width: 100%;
-	max-width: 30em;
+  width: 100%;
+  max-width: 30em;
 }
 
 div.wpcf7-response-output {
-    margin: 2em 0 0;
-    padding: 1em 2em;
+  margin: 2em 0 0;
+  padding: 1em 2em;
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .site-header {
-    padding: 50px 0 100px;
-    position: relative;
+  padding: 50px 0 100px;
+  position: relative;
 }
 
 .site-branding {
-    text-align: center;
+  text-align: center;
 }
 
 .site-title {
-    font-size: 32px;
-    font-size: 3.2rem;
-    font-weight: bold;
-    margin: 0;
+  font-size: 32px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0;
 }
 
 .site-title a,
 .site-title a:visited,
 .site-title a:focus {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .site-description {
-    margin: 5px 0 25px;
-    font-size: 14px;
-    font-size: 1.4rem;
-    color: #777;
+  margin: 5px 0 25px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #777;
 }
 
 .header-image {
-	text-align: center;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -637,8 +637,8 @@ div.wpcf7-response-output {
 ## Links
 --------------------------------------------------------------*/
 a {
-    color: #777;
-    text-decoration: underline;
+  color: #777;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -650,67 +650,67 @@ a:active {
 }
 
 a:focus {
-	outline: thin dotted;
+  outline: thin dotted;
 }
 
 a:hover,
 a:active {
-	outline: 0;
+  outline: 0;
 }
 
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
-    font-size: 14px;
-    font-size: 1.4rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-	margin-top: 50px;
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
 }
 
 .main-navigation ul {
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .main-navigation li {
-	position: relative;
-    flex: 0 0 auto;
-    margin: 0;
+  position: relative;
+  flex: 0 0 auto;
+  margin: 0;
 }
 
 .main-navigation a {
-	display: block;
-	text-decoration: none;
-    padding: 0.7em 1.5em;
-    color: inherit;
+  display: block;
+  text-decoration: none;
+  padding: 0.7em 1.5em;
+  color: inherit;
 }
 
 .main-navigation ul ul {
-    box-shadow: 1px 1px 8px #ccc;
-	float: left;
-	position: absolute;
-	top: 100%;
-	left: -999em;
-	z-index: 99999;
-    background: #fff;
+  box-shadow: 1px 1px 8px #ccc;
+  float: left;
+  position: absolute;
+  top: 100%;
+  left: -999em;
+  z-index: 99999;
+  background: #fff;
 }
 
 .main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
+  left: -999em;
+  top: 0;
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+  width: 200px;
 }
 
 .main-navigation ul ul li {
@@ -720,8 +720,8 @@ a:active {
 .main-navigation li:hover > a,
 .main-navigation li.focus > a,
 .main-navigation li.current_page_item > a {
-    background: #f0f0f0;
-    opacity: 1;
+  background: #f0f0f0;
+  opacity: 1;
 }
 
 .main-navigation ul ul :hover > a,
@@ -734,13 +734,13 @@ a:active {
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
-	left: auto;
-    display: block;
+  left: auto;
+  display: block;
 }
 
 .main-navigation ul ul li:hover > ul,
 .main-navigation ul ul li.focus > ul {
-	left: 100%;
+  left: 100%;
 }
 
 .main-navigation .current_page_item > a,
@@ -752,156 +752,156 @@ a:active {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+  display: block;
 }
 
 .menu-toggle {
-    border: none;
-    padding: 0;
-	position: absolute;
-	right: 0;
-	top: -50px;
-	background: none;
+  border: none;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: -50px;
+  background: none;
 }
 
 .menu-toggle .material-icons {
-    font-size: 40px;
-	font-size: 4rem;
+  font-size: 40px;
+  font-size: 4rem;
 }
 
 .menu-toggle[aria-expanded="false"] .material-icons.close,
 .menu-toggle[aria-expanded="true"] .material-icons.open {
-	display: none;
+  display: none;
 }
 
 .menu-toggle:hover,
 .menu-toggle:focus,
 .menu-toggle:active {
-    background: inherit;
-    color: inherit;
+  background: inherit;
+  color: inherit;
 }
 
 .main-navigation.toggled {
-    box-shadow: 0 2px 6px #eee;
+  box-shadow: 0 2px 6px #eee;
 }
 
 .main-navigation.toggled ul li:hover > ul,
 .main-navigation.toggled ul li.focus > ul {
-    width: 100%;
-    position: unset;
-    box-shadow: none;
-    padding-left: 2em;
-    font-size: 0.9em;
-    float: none;
+  width: 100%;
+  position: unset;
+  box-shadow: none;
+  padding-left: 2em;
+  font-size: 0.9em;
+  float: none;
 }
 
 .main-navigation.toggled ul li:hover > ul a,
 .main-navigation.toggled ul li.focus > ul a {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .main-navigation.toggled ul li:hover > ul li:last-child,
 .main-navigation.toggled ul li.focus > ul li:last-child {
-    border: none;
+  border: none;
 }
 
 .main-navigation.toggled li {
-    border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
 }
 
 @media (min-width: 768px) {
-	.menu-toggle {
-		display: none;
-	}
+  .menu-toggle {
+    display: none;
+  }
 
-    .main-navigation {
-        position: static;
-		margin: 0;
-    }
+  .main-navigation {
+    position: static;
+    margin: 0;
+  }
 
-	.main-navigation ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-	}
+  .main-navigation ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 767px) {
-	.main-navigation ul {
-		background: #fff;
-	}
+  .main-navigation ul {
+    background: #fff;
+  }
 
-	.main-navigation a {
-		width: 100% !important;
-	}
+  .main-navigation a {
+    width: 100% !important;
+  }
 }
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
-	overflow: hidden;
-    font-size: 14px;
-    font-size: 1.4rem;
-    margin: 30px 0 50px;
+  overflow: hidden;
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 30px 0 50px;
 }
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-	float: left;
-	width: 50%;
-    text-decoration: none;
-    color: inherit;
+  float: left;
+  width: 50%;
+  text-decoration: none;
+  color: inherit;
 }
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-	float: right;
-	text-align: right;
-	width: 50%;
-    text-decoration: none;
-    color: inherit;
+  float: right;
+  text-align: right;
+  width: 50%;
+  text-decoration: none;
+  color: inherit;
 }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
-    font-size: 12px;
-    font-size: 1.2rem;
-    padding: 20px 0;
-    margin-top: 50px;
-	text-align: center;
+  font-size: 12px;
+  font-size: 1.2rem;
+  padding: 20px 0;
+  margin-top: 50px;
+  text-align: center;
 }
 
 #back-to-top {
-	background: rgba(255,255,255,0.7);
-	color: inherit;
-	border-radius: 50%;
-    position: fixed;
-    bottom: 5vh;
-    right: 5vw;
-	opacity: 0;
-	visibility: hidden;
-	transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+  background: rgba(255,255,255,0.7);
+  color: inherit;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
 }
 
 #back-to-top.shown {
-	opacity: 0.8;
-	visibility: visible;
-	transition-delay: 0s;
+  opacity: 0.8;
+  visibility: visible;
+  transition-delay: 0s;
 }
 
 #back-to-top .material-icons {
-    font-size: 60px;
-    font-size: 6rem;
+  font-size: 60px;
+  font-size: 6rem;
 }
 
 @media (min-width: 1330px ) {
-	#back-to-top {
-		right: calc(50vw - 600px);
-	}
+  #back-to-top {
+    right: calc(50vw - 600px);
+  }
 }
 
 /*--------------------------------------------------------------
@@ -909,37 +909,37 @@ a:active {
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
 .screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
 .screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	color: #21759b;
-	display: block;
-	font-size: 14px;
-	font-size: 0.875rem;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000; /* Above WP toolbar. */
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
 }
 
 /* Do not show the outline on the skip link target. */
 #content[tabindex="-1"]:focus {
-	outline: 0;
+  outline: 0;
 }
 
 /*--------------------------------------------------------------
@@ -948,25 +948,25 @@ a:active {
 .alignleft,
 .alignright,
 .aligncenter {
-	clear: both;
-	display: block;
-	float: none;
-	margin-left: auto;
-	margin-right: auto;
+  clear: both;
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 568px) {
-	.alignleft {
-		display: inline;
-		float: left;
-		margin-right: 1.5em;
-	}
+  .alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+  }
 
-	.alignright {
-		display: inline;
-		float: right;
-		margin-left: 1.5em;
-	}
+  .alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -984,9 +984,9 @@ a:active {
 .site-content:after,
 .site-footer:before,
 .site-footer:after {
-	content: "";
-	display: table;
-	table-layout: fixed;
+  content: "";
+  display: table;
+  table-layout: fixed;
 }
 
 .clear:after,
@@ -995,112 +995,112 @@ a:active {
 .site-header:after,
 .site-content:after,
 .site-footer:after {
-	clear: both;
+  clear: both;
 }
 
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 .widget-area {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .widget {
-	margin: 0 0 50px;
-    font-size: 14px;
-    font-size: 1.4rem;
-    flex: 0 1 31%;
+  margin: 0 0 50px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  flex: 0 1 31%;
 }
 
 /* Make sure select elements fit in widgets. */
 .widget select {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .widget input,
 .widget select {
-	max-width: 10em !important;
+  max-width: 10em !important;
 }
 
 .widget ul {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .widget li {
-	margin: 0;
-    padding: 1em 0;
-    border-top: 1px dashed #ccc;
+  margin: 0;
+  padding: 1em 0;
+  border-top: 1px dashed #ccc;
 }
 
 .widget li > ul {
-    padding: 1em 0 0 1em;
+  padding: 1em 0 0 1em;
 }
 
 .widget li:last-child {
-    border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
 }
 
 .widget li > ul li:last-child {
-	border-bottom: none;
+  border-bottom: none;
 }
 
 .widget li:first-child {
-    border-top: none;
+  border-top: none;
 }
 
 .widget li > ul li:first-child {
-	border-top: 1px dashed #ccc;
+  border-top: 1px dashed #ccc;
 }
 
 .widget-title {
-    background: #f0f0f0;
-    padding: 0.5em;
-    font-size: 18px;
-    font-size: 1.8rem;
-    font-weight: normal;
-    margin-top: 0;
+  background: #f0f0f0;
+  padding: 0.5em;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-top: 0;
 }
 
 .widget a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .search-form {
-    display: flex;
+  display: flex;
 }
 
 .search-submit {
-	margin-left: 5px !important;
+  margin-left: 5px !important;
 }
 
 @media (max-width: 567px) {
-	.widget {
-		width: 100%;
-		flex: none;
-	}
+  .widget {
+    width: 100%;
+    flex: none;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 767px) {
-	.widget {
-		flex: 0 1 48%;
-	}
+  .widget {
+    flex: 0 1 48%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-	.widget {
-		flex: 0 1 31%;
-	}
+  .widget {
+    flex: 0 1 31%;
+  }
 }
 
 @media (min-width: 1024px) {
-	.widget {
-		width: 100%;
-		flex: none;
-	}
+  .widget {
+    width: 100%;
+    flex: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1109,190 +1109,194 @@ a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.home.blog .page-title {
+  display: none;
+}
+
 .page-title,
 h1.entry-title {
-    margin: 0 0 1em;
+  margin: 0 0 1em;
 }
 
 h2.entry-title {
-    margin-top: 0;
-    padding: 0.5em 0 1.5em 0;
-    border-bottom: 1px solid #ccc;
+  margin-top: 0;
+  padding: 0.5em 0 1.5em 0;
+  border-bottom: 1px solid #ccc;
 }
 
 .entry-title a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .entry-meta,
 .entry-footer {
-    font-size: 12px;
-    font-size: 1.2rem;
+  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .entry-footer {
-    border-top: 1px dashed #ccc;
-    padding-top: 1em;
-    margin-top: 50px;
+  border-top: 1px dashed #ccc;
+  padding-top: 1em;
+  margin-top: 50px;
 }
 
 .blog .hentry, 
 .archive .hentry,
 .search .hentry {
-    border: 1px solid #ccc;
-    padding: 2em;
-    margin-bottom: 50px;
+  border: 1px solid #ccc;
+  padding: 2em;
+  margin-bottom: 50px;
 }
 
 .sticky {
-	display: block;
-    position: relative;
+  display: block;
+  position: relative;
 }
 
 .hentry:not(.sticky) .sticky-icon {
-	display: none;
+  display: none;
 }
 
 .sticky .sticky-icon {
-	float: right;
-    font-size: 40px;
-    font-size: 4rem;
+  float: right;
+  font-size: 40px;
+  font-size: 4rem;
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+  margin: 0 0 1.5em;
 }
 
 .updated:not(.published) {
-	display: none;
+  display: none;
 }
 
 .featured-image {
-    margin: 1.5em 0 0;
-    text-align: center;
+  margin: 1.5em 0 0;
+  text-align: center;
 }
 
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
-    line-height: 1.8;
+  margin: 1.5em 0 0;
+  line-height: 1.8;
 }
 
 .page-links {
-	clear: both;
-	padding: 1em 0;
+  clear: both;
+  padding: 1em 0;
 }
 
 .page-links a {
-    margin: 0 0.7em;
+  margin: 0 0.7em;
 }
 
 .cat-links:not(:last-child),
 .tags-links:not(:last-child),
 .comments-link:not(:last-child) {
-    margin-right: 1em;
-    border-right: 1px solid #ccc;
-    padding-right: 1em;
+  margin-right: 1em;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
 }
 
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
 .comment-content a {
-	word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .bypostauthor {
-	display: block;
+  display: block;
 }
 
 .comments-area,
 .comment-respond {
-    border-top: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
 
 .comments-title {
-    text-align: center;
+  text-align: center;
 }
 
 .comment-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
 }
 
 .comment-list .children {
-    list-style: none;
-	margin-top: 1.5em;
+  list-style: none;
+  margin-top: 1.5em;
 }
 
 .comment,
 .pingback {
-    padding: 1.5em 0;
-    border-top: 1px dashed #ccc;
-    margin-bottom: 0;
+  padding: 1.5em 0;
+  border-top: 1px dashed #ccc;
+  margin-bottom: 0;
 }
 
 .comment-list .children .comment:last-child {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .comment-list > .comment:first-child,
 .comment-list > .pingback:first-child {
-    border: none;
+  border: none;
 }
 
 .comment-metadata {
-    font-size: 12px;
-    font-size: 1.2rem;
+  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .comment-author a {
-    color: inherit;
+  color: inherit;
 }
 
 .comment-author .avatar {
-    margin-right: 0.5em;
-    vertical-align: middle;
+  margin-right: 0.5em;
+  vertical-align: middle;
 }
 
 .comment-author .says {
-    display: none;
+  display: none;
 }
 
 .comment .edit-link {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
 .comment.bypostauthor > .comment-body {
-	border: 5px solid #f0f0f0;
-	padding: 1em;
+  border: 5px solid #f0f0f0;
+  padding: 1em;
 }
 
 .no-comments {
-    text-align: center;
-    background: #404040;
-	color: #fff;
-    padding: 0.5em;
-	margin: 50px 0;
+  text-align: center;
+  background: #404040;
+  color: #fff;
+  padding: 0.5em;
+  margin: 50px 0;
 }
 
 [class*=comment-form-] input,
 [class*=comment-form-] textarea {
-    display: block;
+  display: block;
 }
 
 .comment-notes {
-    font-size: 14px;
-    font-size: 1.4rem;
+  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 676px) {
-	.comment-list .children .children {
-		padding: 0;
-	}
+  .comment-list .children .children {
+    padding: 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1301,12 +1305,12 @@ h2.entry-title {
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
 .infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
-	display: none;
+  display: none;
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
 .infinity-end.neverending .site-footer {
-	display: block;
+  display: block;
 }
 
 /*--------------------------------------------------------------
@@ -1315,149 +1319,149 @@ h2.entry-title {
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
-	border: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 0;
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
 }
 
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
 object {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
-	display: inline-block;
+  display: inline-block;
 }
 
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
 .wp-caption {
-	margin-bottom: 1.5em;
-	max-width: 100%;
+  margin-bottom: 1.5em;
+  max-width: 100%;
 }
 
 .wp-caption img[class*="wp-image-"] {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
-    font-size: 12px;
-    font-size: 1.2rem;
+  margin: 0.8075em 0;
+  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .wp-caption-text {
-	text-align: center;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
 .gallery {
-	margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .gallery-item {
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	width: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 50%;
 }
 
 @media (min-width: 568px) {
-	.gallery-columns-3 .gallery-item,
-	.gallery-columns-4 .gallery-item,
-	.gallery-columns-5 .gallery-item,
-	.gallery-columns-6 .gallery-item,
-	.gallery-columns-7 .gallery-item,
-	.gallery-columns-8 .gallery-item,
-	.gallery-columns-9 .gallery-item {
-		max-width: 33.33333%;
-	}
+  .gallery-columns-3 .gallery-item,
+  .gallery-columns-4 .gallery-item,
+  .gallery-columns-5 .gallery-item,
+  .gallery-columns-6 .gallery-item,
+  .gallery-columns-7 .gallery-item,
+  .gallery-columns-8 .gallery-item,
+  .gallery-columns-9 .gallery-item {
+    max-width: 33.33333%;
+  }
 }
 
 @media (min-width: 768px) {
-	.gallery-columns-4 .gallery-item {
-		max-width: 25%;
-	}
+  .gallery-columns-4 .gallery-item {
+    max-width: 25%;
+  }
 
-	.gallery-columns-5 .gallery-item {
-		max-width: 20%;
-	}
+  .gallery-columns-5 .gallery-item {
+    max-width: 20%;
+  }
 
-	.gallery-columns-6 .gallery-item {
-		max-width: 16.66667%;
-	}
+  .gallery-columns-6 .gallery-item {
+    max-width: 16.66667%;
+  }
 
-	.gallery-columns-7 .gallery-item {
-		max-width: 14.28571%;
-	}
+  .gallery-columns-7 .gallery-item {
+    max-width: 14.28571%;
+  }
 
-	.gallery-columns-8 .gallery-item {
-		max-width: 12.5%;
-	}
+  .gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+  }
 
-	.gallery-columns-9 .gallery-item {
-		max-width: 11.11111%;
-	}
+  .gallery-columns-9 .gallery-item {
+    max-width: 11.11111%;
+  }
 }
 
 .gallery-columns-1 .gallery-item {
-	width: 100%;
+  width: 100%;
 }
 
 .gallery-columns-2 .gallery-item {
-	max-width: 50%;
+  max-width: 50%;
 }
 
 .gallery-caption {
-	display: block;
-    font-size: 12px;
-    font-size: 1.2rem;
+  display: block;
+  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
 @media (max-width: 567px) {
-    .hidden-sm,
-    .visible-md:not(.visible-sm),
-    .visible-lg:not(.visible-sm),
-    .visible-xl:not(.visible-sm) {
-        display: none !important;
-    }
+  .hidden-sm,
+  .visible-md:not(.visible-sm),
+  .visible-lg:not(.visible-sm),
+  .visible-xl:not(.visible-sm) {
+    display: none !important;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 767px) {
-    .hidden-md,
-    .visible-sm:not(.visible-md),
-    .visible-lg:not(.visible-md),
-    .visible-xl:not(.visible-md) {
-        display: none !important;
-    }
+  .hidden-md,
+  .visible-sm:not(.visible-md),
+  .visible-lg:not(.visible-md),
+  .visible-xl:not(.visible-md) {
+    display: none !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .hidden-lg,
-    .visible-sm:not(.visible-lg),
-    .visible-md:not(.visible-lg),
-    .visible-xl:not(.visible-lg) {
-        display: none !important;
-    }
+  .hidden-lg,
+  .visible-sm:not(.visible-lg),
+  .visible-md:not(.visible-lg),
+  .visible-xl:not(.visible-lg) {
+    display: none !important;
+  }
 }
 
 @media (min-width: 1024px) {
-    .hidden-xl,
-    .visible-sm:not(.visible-xl),
-    .visible-md:not(.visible-xl),
-    .visible-lg:not(.visible-xl) {
-        display: none !important;
-    }
+  .hidden-xl,
+  .visible-sm:not(.visible-xl),
+  .visible-md:not(.visible-xl),
+  .visible-lg:not(.visible-xl) {
+    display: none !important;
+  }
 }

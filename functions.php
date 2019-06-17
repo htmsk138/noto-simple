@@ -117,7 +117,7 @@ add_action( 'widgets_init', 'noto_simple_widgets_init' );
  * Enqueue scripts and styles.
  */
 function noto_simple_scripts() {
-    wp_enqueue_style( 'noto-sans-en', 'https://fonts.googleapis.com/css?family=Noto+Sans' );
+    wp_enqueue_style( 'noto-simple-noto-sans-en', 'https://fonts.googleapis.com/css?family=Noto+Sans:400&amp;subset=latin-ext' );
 
 	wp_enqueue_style( 'noto-simple-style', get_stylesheet_uri(), array(), '201811' );
 
