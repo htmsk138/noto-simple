@@ -4,6 +4,7 @@ Contributors: htmsk138
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, right-sidebar, editor-style, sticky-post, blog
 Requires at least: 5.0
 Tested up to: 5.0
+Requires PHP: 7.2
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
