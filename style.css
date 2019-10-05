@@ -4,11 +4,11 @@ Theme URI: https://github.com/htmsk138/noto-simple
 Author: Hitomi Seki
 Author URI: https://hitomiseki.com/
 Description: Simple WordPress theme using Noto Sans.
-Version: 1.1.3
+Version: 1.2.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: noto-simple
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, right-sidebar, editor-style, sticky-post, blog
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, right-sidebar, editor-style, sticky-post, blog, rtl-language-support
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -419,7 +419,7 @@ hr {
 
 ul,
 ol {
-  margin: 0 0 1.5em 0;
+  margin: 1.5em 0;
   padding-left: 2em;
 }
 
@@ -664,7 +664,6 @@ a:active {
 .main-navigation {
   clear: both;
   display: block;
-  float: left;
   width: 100%;
   font-size: 14px;
   font-size: 1.4rem;
@@ -696,7 +695,6 @@ a:active {
 
 .main-navigation ul ul {
   box-shadow: 1px 1px 8px #ccc;
-  float: left;
   position: absolute;
   top: 100%;
   left: -999em;
@@ -705,7 +703,6 @@ a:active {
 }
 
 .main-navigation ul ul ul {
-  left: -999em;
   top: 0;
 }
 
@@ -1141,9 +1138,10 @@ h2.entry-title {
   margin-top: 50px;
 }
 
-.blog .hentry, 
-.archive .hentry,
-.search .hentry {
+.blog .post,
+.archive .post,
+.search .post,
+.search .page {
   border: 1px solid #ccc;
   padding: 2em;
   margin-bottom: 50px;
@@ -1154,7 +1152,7 @@ h2.entry-title {
   position: relative;
 }
 
-.hentry:not(.sticky) .sticky-icon {
+.post:not(.sticky) .sticky-icon {
   display: none;
 }
 
@@ -1164,7 +1162,8 @@ h2.entry-title {
   font-size: 4rem;
 }
 
-.hentry {
+.post,
+.page {
   margin: 0 0 1.5em;
 }
 

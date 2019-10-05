@@ -1,0 +1,129 @@
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+td,
+th {
+  text-align: right;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+.main-navigation {
+  right: 0;
+  margin-top: 50px;
+}
+
+.main-navigation ul {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-navigation li {
+  position: relative;
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.main-navigation a {
+  display: block;
+  text-decoration: none;
+  padding: 0.7em 1.5em;
+  color: inherit;
+}
+
+.main-navigation ul ul {
+  left: unset;
+  right: -999em;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+  left: unset;
+  right: auto;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+  left: unset;
+  right: 100%;
+}
+
+.main-navigation.toggled ul li:hover > ul,
+.main-navigation.toggled ul li.focus > ul {
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+.main-navigation.toggled ul li:hover > ul a,
+.main-navigation.toggled ul li.focus > ul a {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#back-to-top {
+  left: 5vw;
+  right: unset;
+}
+
+@media (min-width: 1330px ) {
+  #back-to-top {
+    left: calc(50vw - 600px);
+  }
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  direction: ltr;
+  text-align: left;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  direction: ltr;
+}
+
+.screen-reader-text:focus {
+  left: unset;
+  right: 5px;
+}
+
+.widget li > ul {
+  padding: 1em 1em 0 0;
+}
+
+.search-submit {
+  margin-left: 0 !important;
+  margin-right: 5px !important;
+}
+
+.cat-links:not(:last-child),
+.tags-links:not(:last-child),
+.comments-link:not(:last-child) {
+  margin-left: 1em;
+  margin-right: 0;
+  border-left: 1px solid #ccc;
+  border-right: none;
+  padding-left: 1em;
+  padding-right: 0;
+}
+.comment-author .avatar {
+  margin-left: 0.5em;
+  margin-right: 0;
+}
+
+.comment .edit-link {
+  margin-left: 0;
+  margin-right: 1em;
+}
+
+.sticky .sticky-icon {
+  float: left;
+}

@@ -19,13 +19,10 @@
 			<a id="back-to-top" href="#page"><i class="material-icons">keyboard_arrow_up</i></a>
             <div class="site-info">
                 <?php
-                    /* translators: 1: Theme name, 2: Theme author. */
-                    printf( esc_html__( 'Theme: %1$s by %2$s.', 'noto-simple' ), 'Noto Simple', '<a href="https://hitomiseki.com/" target="_blank" rel="noreferrer noopener">Hitomi Seki</a>' );
+                    /* translators: 1: Theme name */
+                    printf( esc_html__( 'Theme: %1$s', 'noto-simple' ), '<a href="https://wordpress.org/themes/noto-simple/">Noto Simple</a>' );
                 ?>
             </div><!-- .site-info -->
-			<p class="copyright">
-				&copy;<?php echo date_i18n('Y') . ' '; bloginfo('name'); ?>
-			</p>
         </div><!-- .container -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

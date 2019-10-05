@@ -1,11 +1,11 @@
 == Noto Simple ===
 
 Contributors: htmsk138
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, right-sidebar, editor-style, sticky-post, blog
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, right-sidebar, editor-style, sticky-post, blog, rtl-language-support
 Requires at least: 5.0
-Tested up to: 5.0
+Tested up to: 5.2.3
 Requires PHP: 7.2
-Stable tag: 1.0.0
+Stable tag: 1.2.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -41,6 +41,11 @@ The site owner can customize the site’s look in admin panel:
 * Upload background image
 
 == Changelog ==
+
+= 1.2 =
+* Add right-to-left language support
+* Remove 'hentry' class from CSS
+* Small fixes
 
 = 1.1 =
 * Fix CSS
