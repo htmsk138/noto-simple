@@ -137,7 +137,7 @@ function noto_simple_scripts() {
 
 	wp_enqueue_script( 'noto-simple-smooth-scroll', get_template_directory_uri() . '/js/vendor/smooth-scroll.polyfills.js', array(), '16.0.3', true );
 
-	wp_enqueue_script( 'noto-simple-main', get_template_directory_uri() . '/js/main.js', array(), '201811', true );
+	wp_enqueue_script( 'noto-simple-main', get_template_directory_uri() . '/js/main.js', array('noto-simple-smooth-scroll'), '201811', true );
 }
 add_action( 'wp_enqueue_scripts', 'noto_simple_scripts' );
 

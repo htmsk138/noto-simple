@@ -25,6 +25,28 @@ function noto_simple_customize_register( $wp_customize ) {
 			'render_callback' => 'noto_simple_customize_partial_blogdescription',
 		) );
 	}
+
+	$wp_customize->add_section(
+		'display_settings',
+		array(
+			'title' => __('Display settings', 'noto-simple')
+		)
+	);
+	$wp_customize->add_setting(
+		'display_author',
+		array(
+			'default' => true,
+			'sanitize_callback' => 'esc_attr',
+		)
+	);
+	$wp_customize->add_control(
+		'display_author',
+		array(
+			'label' => esc_html__('Display author name', 'noto-simple'),
+			'type' => 'checkbox',
+			'section' => 'display_settings'
+		)
+	);
 }
 add_action( 'customize_register', 'noto_simple_customize_register' );
 

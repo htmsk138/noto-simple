@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Noto Simple\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-04 02:13+0000\n"
+"POT-Creation-Date: 2020-09-04 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -13,6 +13,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:107
+msgid "Add widgets here."
+msgstr ""
 
 #: 404.php:17
 msgid "That page can&rsquo;t be found."
@@ -50,32 +62,20 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#. 1: Theme name, 2: Theme author.
-#: footer.php:23
-#, php-format
-msgid "Theme: %1$s by %2$s."
-msgstr ""
-
-#: functions.php:47
-msgid "Primary"
-msgstr ""
-
-#: functions.php:105
-msgid "Sidebar"
-msgstr ""
-
-#: functions.php:107
-msgid "Add widgets here."
-msgstr ""
-
-#: header.php:25
-msgid "Skip to content"
-msgstr ""
-
 #. %s: search query.
 #: search.php:21
 #, php-format
 msgid "Search Results for: %s"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#. 1: Theme name
+#: footer.php:23
+#, php-format
+msgid "Theme: %1$s"
 msgstr ""
 
 #: single.php:21
@@ -86,6 +86,14 @@ msgstr ""
 msgid "Next post"
 msgstr ""
 
+#: inc/customizer.php:32
+msgid "Display settings"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Display author name"
+msgstr ""
+
 #. %s: post date.
 #: inc/template-tags.php:29
 #, php-format
@@ -94,43 +102,43 @@ msgid "Posted on %s"
 msgstr ""
 
 #. %s: post author.
-#: inc/template-tags.php:35
+#: inc/template-tags.php:38
 #, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
 #. used between list items, there is a space after the comma
-#: inc/template-tags.php:52
+#: inc/template-tags.php:57
 msgid ", "
 msgstr ""
 
 #. 1: list of categories.
-#: inc/template-tags.php:55
+#: inc/template-tags.php:60
 #, php-format
 msgid "Posted in %1$s"
 msgstr ""
 
 #. used between list items, there is a space after the comma
-#: inc/template-tags.php:59
+#: inc/template-tags.php:64
 msgctxt "list item separator"
 msgid ", "
 msgstr ""
 
 #. 1: list of tags.
-#: inc/template-tags.php:62
+#: inc/template-tags.php:67
 #, php-format
 msgid "Tagged %1$s"
 msgstr ""
 
 #. %s: post title
-#: inc/template-tags.php:72
+#: inc/template-tags.php:77
 #, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
 #. %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:89 template-parts/content-page.php:35
+#: inc/template-tags.php:94 template-parts/content-page.php:41
 #, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
@@ -158,7 +166,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:22 template-parts/content.php:50
+#: template-parts/content-page.php:28 template-parts/content.php:50
 msgid "Pages:"
 msgstr ""
 
@@ -184,7 +192,6 @@ msgstr ""
 msgid "Hitomi Seki"
 msgstr ""
 
-#. URI of the theme
 #. Author URI of the theme
 msgid "https://hitomiseki.com/"
 msgstr ""

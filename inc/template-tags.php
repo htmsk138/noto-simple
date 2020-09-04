@@ -29,14 +29,19 @@ if ( ! function_exists( 'noto_simple_posted_on' ) ) :
 			esc_html_x( 'Posted on %s', 'post date', 'noto-simple' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
+		$posted_on = '<span class="posted-on">' . $posted_on . '</span>';
 
-		$byline = sprintf(
-			/* translators: %s: post author. */
-			esc_html_x( 'by %s', 'post author', 'noto-simple' ),
-			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
-		);
+		$byline = '';
+		if (get_theme_mod('display_author')) {
+			$byline = sprintf(
+				/* translators: %s: post author. */
+				esc_html_x( 'by %s', 'post author', 'noto-simple' ),
+				'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
+			);
+			$byline = '<span class="byline"> ' . $byline . '</span>';
+		}
 
-		echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+		echo $posted_on . $byline;
 
 	}
 endif;
