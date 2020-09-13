@@ -32,7 +32,7 @@ if ( ! function_exists( 'noto_simple_posted_on' ) ) :
 		$posted_on = '<span class="posted-on">' . $posted_on . '</span>';
 
 		$byline = '';
-		if (get_theme_mod('display_author')) {
+		if (get_theme_mod('display_author', '1') === '1') {
 			$byline = sprintf(
 				/* translators: %s: post author. */
 				esc_html_x( 'by %s', 'post author', 'noto-simple' ),
