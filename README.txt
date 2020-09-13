@@ -5,7 +5,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 Requires at least: 5.0
 Tested up to: 5.5
 Requires PHP: 7.2
-Stable tag: 1.3
+Stable tag: 1.3.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -41,6 +41,9 @@ The site owner can customize the site’s look in admin panel:
 * Upload background image
 
 == Changelog ==
+
+= 1.3.1 =
+* Bug fix (display author name by default)
 
 = 1.3 =
 * Add option to display/hide author

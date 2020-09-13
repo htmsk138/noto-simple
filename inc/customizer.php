@@ -29,13 +29,13 @@ function noto_simple_customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'display_settings',
 		array(
-			'title' => __('Display settings', 'noto-simple')
+			'title' => __('Display Settings', 'noto-simple')
 		)
 	);
 	$wp_customize->add_setting(
 		'display_author',
 		array(
-			'default' => true,
+			'default' => '1',
 			'sanitize_callback' => 'esc_attr',
 		)
 	);
