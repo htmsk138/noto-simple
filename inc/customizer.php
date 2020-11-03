@@ -46,7 +46,24 @@ function noto_simple_customize_register( $wp_customize ) {
 		array(
 			'label' => esc_html__( 'Display author name', 'noto-simple' ),
 			'type' => 'checkbox',
-			'section' => 'display_settings'
+			'section' => 'display_settings',
+		)
+	);
+
+	// Footer text
+	$wp_customize->add_setting(
+		'footer_text',
+		array(
+			'sanitize_callback' => 'wp_kses_post',
+		)
+	);
+	$wp_customize->add_control(
+		'footer_text',
+		array(
+			'label' => esc_html__( 'Custom Footer Text', 'noto-simple' ),
+			'type' => 'text',
+			'section' => 'title_tagline',
+			'description' => esc_html__( 'HTML enabled. Displays theme name by default.', 'noto-simple' )
 		)
 	);
 }

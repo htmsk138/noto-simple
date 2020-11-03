@@ -19,8 +19,13 @@
 			<a id="back-to-top" href="#page"><i class="material-icons">keyboard_arrow_up</i></a>
             <div class="site-info">
                 <?php
+                $footer_text = get_theme_mod( 'footer_text', '' );
+                if ( empty( $footer_text ) ) {
                     /* translators: 1: Theme name */
                     printf( esc_html__( 'Theme: %1$s', 'noto-simple' ), '<a href="https://wordpress.org/themes/noto-simple/">Noto Simple</a>' );
+                } else {
+                    echo $footer_text;
+                }
                 ?>
             </div><!-- .site-info -->
         </div><!-- .container -->
