@@ -12,16 +12,19 @@ if ( ! function_exists( 'noto_simple_posted_on' ) ) :
 	 * Prints HTML with meta information for the current post-date/time and author.
 	 */
 	function noto_simple_posted_on() {
-		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s%3$s</time>';
 		if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s%3$s</time><time class="updated" datetime="%4$s">%5$s%6$s</time>';
 		}
 
+		$display_time = 'datetime' === get_theme_mod( 'display_datetime', 'date' );
 		$time_string = sprintf( $time_string,
 			esc_attr( get_the_date( 'c' ) ),
 			esc_html( get_the_date() ),
+			($display_time ? esc_html( ' ' . get_the_time() ) : ''),
 			esc_attr( get_the_modified_date( 'c' ) ),
-			esc_html( get_the_modified_date() )
+			esc_html( get_the_modified_date() ),
+			($display_time ? esc_html(  ' ' . get_the_modified_time() ) : '')
 		);
 
 		$posted_on = sprintf(
