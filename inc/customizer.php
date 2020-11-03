@@ -29,9 +29,11 @@ function noto_simple_customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'display_settings',
 		array(
-			'title' => __('Display Settings', 'noto-simple')
+			'title' => __( 'Display Settings', 'noto-simple' ),
 		)
 	);
+
+	// Author name display
 	$wp_customize->add_setting(
 		'display_author',
 		array(
@@ -42,7 +44,7 @@ function noto_simple_customize_register( $wp_customize ) {
 	$wp_customize->add_control(
 		'display_author',
 		array(
-			'label' => esc_html__('Display author name', 'noto-simple'),
+			'label' => esc_html__( 'Display author name', 'noto-simple' ),
 			'type' => 'checkbox',
 			'section' => 'display_settings'
 		)
