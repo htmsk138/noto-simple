@@ -50,6 +50,26 @@ function noto_simple_customize_register( $wp_customize ) {
 		)
 	);
 
+	// Publish date
+	$wp_customize->add_setting(
+		'display_datetime',
+		array(
+			'default' => 'date',
+			'sanitize_callback' => 'esc_attr',
+		)
+	);
+	$wp_customize->add_control(
+		'display_datetime',
+		array(
+			'label' => esc_html__( 'Publish Date', 'noto-simple' ),
+			'type' => 'radio',
+			'section' => 'display_settings',
+			'choices' => array(
+				'date' => esc_html__( 'Date only', 'noto-simple' ),
+				'datetime' => esc_html__( 'Date and time', 'noto-simple' ),
+			),
+		)
+	);
 	// Footer text
 	$wp_customize->add_setting(
 		'footer_text',
