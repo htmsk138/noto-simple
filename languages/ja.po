@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Noto Simple\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-04 05:36+0000\n"
-"PO-Revision-Date: 2020-09-04 05:40+0000\n"
+"POT-Creation-Date: 2020-11-04 02:51+0000\n"
+"PO-Revision-Date: 2020-11-04 02:52+0000\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -11,20 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.4.3; wp-5.5.1\n"
+"X-Loco-Version: 2.4.3; wp-5.5.3\n"
 "Last-Translator: Hitomi Seki"
-
-#: functions.php:47
-msgid "Primary"
-msgstr "メインメニュー"
-
-#: functions.php:105
-msgid "Sidebar"
-msgstr "サイドバー"
-
-#: functions.php:107
-msgid "Add widgets here."
-msgstr "ウィジェットを追加してください。"
 
 #: 404.php:17
 msgid "That page can&rsquo;t be found."
@@ -62,21 +50,33 @@ msgstr "新しいコメント"
 msgid "Comments are closed."
 msgstr "この記事へのコメントの受付は締め切りました。"
 
-#. %s: search query.
-#: search.php:21
+#. 1: Theme name
+#: footer.php:25
 #, php-format
-msgid "Search Results for: %s"
-msgstr "『%s』の検索結果"
+msgid "Theme: %1$s"
+msgstr "テーマ： %1$s"
+
+#: functions.php:47
+msgid "Primary"
+msgstr "メインメニュー"
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:107
+msgid "Add widgets here."
+msgstr "ウィジェットを追加してください。"
 
 #: header.php:26
 msgid "Skip to content"
 msgstr "コンテンツへ移動"
 
-#. 1: Theme name
-#: footer.php:23
+#. %s: search query.
+#: search.php:21
 #, php-format
-msgid "Theme: %1$s"
-msgstr "テーマ： %1$s"
+msgid "Search Results for: %s"
+msgstr "『%s』の検索結果"
 
 #: single.php:21
 msgid "Previous post"
@@ -87,58 +87,78 @@ msgid "Next post"
 msgstr "次の記事"
 
 #: inc/customizer.php:32
-msgid "Display settings"
+msgid "Display Settings"
 msgstr "表示設定"
 
-#: inc/customizer.php:44
+#: inc/customizer.php:47
 msgid "Display author name"
 msgstr "投稿者名を表示する"
 
+#: inc/customizer.php:64
+msgid "Publish Date"
+msgstr "投稿日時のフォーマット"
+
+#: inc/customizer.php:68
+msgid "Date only"
+msgstr "日付のみ"
+
+#: inc/customizer.php:69
+msgid "Date and time"
+msgstr "日付と時刻"
+
+#: inc/customizer.php:83
+msgid "Custom Footer Text"
+msgstr "フッターテキスト"
+
+#: inc/customizer.php:86
+msgid "HTML enabled. Displays theme name by default."
+msgstr "HTML使用可能。設定なしの場合、テーマ名を表示します。"
+
 #. %s: post date.
-#: inc/template-tags.php:29
+#: inc/template-tags.php:32
 #, php-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "%s"
 
 #. %s: post author.
-#: inc/template-tags.php:38
+#: inc/template-tags.php:41
 #, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr "投稿者： %s"
 
 #. used between list items, there is a space after the comma
-#: inc/template-tags.php:57
+#: inc/template-tags.php:60
 msgid ", "
 msgstr "、"
 
 #. 1: list of categories.
-#: inc/template-tags.php:60
+#: inc/template-tags.php:63
 #, php-format
 msgid "Posted in %1$s"
 msgstr "カテゴリー： %1$s"
 
 #. used between list items, there is a space after the comma
-#: inc/template-tags.php:64
+#: inc/template-tags.php:67
 msgctxt "list item separator"
 msgid ", "
 msgstr "、"
 
 #. 1: list of tags.
-#: inc/template-tags.php:67
+#: inc/template-tags.php:70
 #, php-format
 msgid "Tagged %1$s"
 msgstr "タグ： %1$s"
 
 #. %s: post title
-#: inc/template-tags.php:77
+#: inc/template-tags.php:80
 #, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "<span class=\"screen-reader-text\">『%s』に</span>コメントする"
 
 #. %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:94 template-parts/content-page.php:41
+#: inc/template-tags.php:97 template-parts/content-page.php:41
 #, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "<span class=\"screen-reader-text\">『%s』を</span>編集"
