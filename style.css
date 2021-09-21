@@ -4,7 +4,7 @@ Theme URI: https://github.com/htmsk138/noto-simple
 Author: Hitomi Seki
 Author URI: https://hitomiseki.com/
 Description: Simple WordPress theme using Noto Sans.
-Version: 1.4
+Version: 1.4.2
 Requires at least: 5.0
 Tested up to: 5.5.3
 Requires PHP: 7.2
@@ -461,10 +461,7 @@ figure {
 }
 
 table {
-  display: block;
   margin: 0 0 1.5em;
-  overflow: auto;
-  width: 100%;
 }
 
 /*--------------------------------------------------------------

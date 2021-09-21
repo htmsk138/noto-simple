@@ -5,7 +5,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 Requires at least: 5.0
 Tested up to: 5.5
 Requires PHP: 7.2
-Stable tag: 1.4
+Stable tag: 1.4.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -41,6 +41,9 @@ The site owner can customize the site’s look in admin panel:
 * Upload background image
 
 == Changelog ==
+
+= 1.4.2 =
+* Bug fix (table css)
 
 = 1.4 =
 * Add option to customise footer text (Appearance -> Customize -> Site Identity -> Custom Footer Text)
